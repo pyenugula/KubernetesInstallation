@@ -171,7 +171,7 @@ mkdir -p ~/.kube
 sudo cp -i /etc/kubernetes/admin.conf ~/.kube/config
 
 ### CNI
-kubectl apply -f https://raw.githubusercontent.com/khajaehtesham/kubernetes-cluster-setup/refs/heads/main/cluster-setup/calico.yaml
+kubectl apply -f https://raw.githubusercontent.com/pyenugula/KubernetesInstallation/refs/heads/main/cluster-setup/calico.yaml
 
 # etcdctl
 ETCDCTL_VERSION=v3.5.1
